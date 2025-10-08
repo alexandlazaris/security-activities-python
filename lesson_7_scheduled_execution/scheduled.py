@@ -5,6 +5,8 @@ from datetime import datetime, timedelta
 def manipulate_scheduled_task():
     """
     A Windows-only exploit, designed to take advantage of Scheduled Tasks on Windows. This script adds persistance to the malicious code by utilising a repeating scheduled task. 
+
+    TODO: not yet tested, needs Windows VM.
     """
 
     if os.system("schtasks /query /tn SecurityScan") == 0:
