@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.13.2/brython.min.js">
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.13.2/brython_stdlib.js">
+    </script>
+</head>
+
+<body>
+    <h1>Login page</h1>
+    <p>Enter your credentials to login to your account.</p>
+    <input id="username" placeholder="username" value="">
+    <input id="password" placeholder="********" value="" type="password">
+    <button id="submit">log in</button>
+
+    <script type="text/python">
+
+from browser import document, ajax
+host="127.0.0.1"
+port="8888"
+def submit_creds(ev):
+    username=document['username'].value
+    password=document['password'].value
+    url = "http://"+host+":"+port+"?username="+username+"&password="+password
+    req = ajax.ajax()
+    req.open("GET", url, True)
+    req.send()
+document["submit"].bind("click", submit_creds)
+
+</script>
+
+
+</body>
+
+</html>
