@@ -7,14 +7,18 @@
 3. `pip install -r requirements.txt`
 
 
-## What can we do:
-- `packet_reader.py` -> read a packet file, disect packets within, build our own packets ✅
-- `port_scan.py` -> scan a list of ports, check for open ports + print results ✅
-- `dns_exploration.py` -> scan & discover domains & ips using dns request + reverse dns requests ✅
-- `check_default_credentials.py` -> brute force logins using a predefined list of username + password combos against ssh & telnet servers running on localhost ✅
-- use `pyinstaller` to package malicious python scripts as executables, targeting the Autorun feature of older Windows versions ✅
-- hijack execution flows by cloning & manipulation path/alias variables ✅
-- add generated .exes to Windows Registry, allowing malicious software to run on Logon ✅
+## What have we learned:
+- lesson_1: `packet_reader.py` -> read a packet file, disect packets within, build our own packets ✅
+- lesson_2: `port_scan.py` -> scan a list of ports, check for open ports + print results ✅
+- lesson_3: `dns_exploration.py` -> scan & discover domains & ips using dns request + reverse dns requests ✅
+- lesson_4: `check_default_credentials.py` -> brute force logins using a predefined list of username + password combos against ssh & telnet servers running on localhost ✅
+- lesson_5: use `pyinstaller` to package malicious python scripts as executables, targeting the Autorun feature of older Windows versions ✅
+- lesson_6: create a fake login page to phish for user credentials ✅
+- lesson_7: TBC
+- lesson_8: TBC
+- lesson_9: hijack execution flows by cloning & manipulation path/alias variables ✅
+- lesson_10: add generated .exes to Windows Registry, allowing malicious software to run on Logon ✅
+- lesson_11: hijacks the python library search order to instead invoke a fake library ✅
 
 
 ## Data sources
