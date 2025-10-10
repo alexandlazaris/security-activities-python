@@ -1,4 +1,4 @@
-# scapy-doo
+# MITRE ATT&CK & SHIELD training
 
 ## Install
 
@@ -6,8 +6,7 @@
 2. `source .venv/bin/activate`
 3. `pip install -r requirements.txt`
 
-
-## What have we learned:
+## Attack vectors covered:
 - lesson_1: `packet_reader.py` -> read a packet file, disect packets within, build our own packets ✅
 - lesson_2: `port_scan.py` -> scan a list of ports, check for open ports + print results ✅
 - lesson_3: `dns_exploration.py` -> scan & discover domains & ips using dns request + reverse dns requests ✅
@@ -20,7 +19,6 @@
 - lesson_10: add generated .exes to Windows Registry, allowing malicious software to run on Logon ✅
 - lesson_11: hijacks the python library search order to instead invoke a fake library ✅
 
-
 ## Data sources
 
 - Wireshark sample packets: https://wiki.wireshark.org/samplecaptures#sample-captures
@@ -28,3 +26,4 @@
 ## Tools used
 
 - [Orbstack](https://orbstack.dev/): whip up lightweight virtual Linux machines to test out scripts or run ssh connections
+- [UTM](https://mac.getutm.app/): run Windows/Linux VMs on-demand on Mac
