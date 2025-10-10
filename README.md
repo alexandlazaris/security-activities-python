@@ -13,6 +13,8 @@
 - `dns_exploration.py` -> scan & discover domains & ips using dns request + reverse dns requests ✅
 - `check_default_credentials.py` -> brute force logins using a predefined list of username + password combos against ssh & telnet servers running on localhost ✅
 - use `pyinstaller` to package malicious python scripts as executables, targeting the Autorun feature of older Windows versions ✅
+- hijack execution flows by cloning & manipulation path/alias variables ✅
+- add generated .exes to Windows Registry, allowing malicious software to run on Logon ✅
 
 
 ## Data sources
