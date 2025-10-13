@@ -3,6 +3,8 @@ import winreg, wmi, os, signal
 
 def kill_program_in_autorun():
     """
+    Windows only. Tested on Windows 11.
+    
     Given a list of available antivirus programs (using 'Sublime Text' for practical example), this script will identify & delete the program in the Registry Editor.
 
     Lastly, it will delete any running processes that match the provided list.
