@@ -18,6 +18,7 @@
 - lesson_9: hijack execution flows by cloning & manipulation path/alias variables ✅
 - lesson_10: add generated .exes to Windows Registry, allowing malicious software to run on Logon ✅
 - lesson_11: hijacks the python library search order to instead invoke a fake library ✅
+- lesson_12: targets & deletes identified programs to lower defenses ✅
 
 ## Data sources
 
